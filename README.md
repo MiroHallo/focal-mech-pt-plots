@@ -67,6 +67,9 @@ Planets and Space, 71:34. [https://doi.org/10.1186/s40623-019-1016-8](https://do
 3. Run any of the main scripts: `plot_pt_axes.m`, `plot_triangle.m`, or `plot_sdr_hist.m`
 4. Check the `/results` folder for high-resolution outputs
 
+### Server Execution
+If you run scripts on a server without a graphical user interface (e.g., Linux cluster, Docker container, or cloud instance), run it with `matlab -nodisplay -nosplash -nodesktop -r "run('plot_pt_axes.m'); run('plot_triangle.m'); run('plot_sdr_hist.m'); exit;"`
+
 ## 7 EXAMPLE OUTPUT
 
 This tool suite features a robust ASCII text parser to read Strike, Dip, and Rake angles.
